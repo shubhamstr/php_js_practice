@@ -39,7 +39,8 @@
     $('#langOpt').multiselect({
         columns: 1,
         placeholder: 'Select Languages',
-        search: true
+        search: true,
+        selectAll: true
     });
     </script>
 </body>

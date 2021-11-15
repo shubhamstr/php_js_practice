@@ -79,11 +79,11 @@
 
     <div class="button-group-alert">
         <button onclick="alert('This is our alert dialog. Press \'Ok\' to close this.')">Default Button</button>
-        <button onclick="CustomAlert.show('This is our alert dialog. Press \'Ok\' to close this.')">Custom
+        <button onclick="CustomAlert.show('Alert','This is our alert dialog. Press \'Ok\' to close this.')">Custom
             Button</button>
     </div>
     <div id="dialog-container-alert" class="dialog-container-alert">
-        <div class="dialog-header-alert">Custom Alert Dialog</div>
+        <div id="dialog-header-alert" class="dialog-header-alert">Custom Alert Dialog</div>
         <div id="dialog-body-alert" class="dialog-body-alert">This is the custom alert message. Click Ok to close this.
         </div>
         <div class="dialog-footer-alert">
@@ -94,11 +94,13 @@
 
     <script>
     const container = document.getElementById('dialog-container-alert');
-    const CustomAlert = new function(msg) {
-        this.show = function(msg) {
+    const CustomAlert = new function(title, msg) {
+        this.show = function(title, msg) {
             let content = document.getElementById('dialog-body-alert');
+            let content2 = document.getElementById('dialog-header-alert');
             container.style.top = '30%';
             container.style.opacity = 1;
+            content2.textContent = title;
             content.textContent = msg;
         }
 

@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>check child exists with jQuery</title>
+  </head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <body>
+    <div class="input_fields_wrap">
+      <button class="add_field_button">Add More Fields</button>
+      <div><input type="text" name="mytext[]" /></div>
+    </div>
+
+    <script>
+      var parent = document.querySelector('.input_fields_wrap'),
+      child = document.querySelector('.add_field_button');
+
+    if (parent.contains(child)) {
+            alert('hello');
+    }
+    </script>
+  </body>
+</html>

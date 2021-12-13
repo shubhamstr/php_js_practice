@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>check child exists with jQuery</title>
+  </head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <body>
+    <div class="input_fields_wrap">
+      <button class="add_field_button">Add More Fields</button>
+      <div><input type="text" name="mytext[]" /></div>
+    </div>
+
+    <script>
+      $("button").click(function () {
+        alert($(".input_fields_wrap").hasClass("add_field_button"));
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.custom_card_clickable{
+    width: 660px;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.custom_card_clickable .custom_card_clickable-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 28px;
+    background: white;
+    box-shadow: 2px 2px 7px #8ACAFB;
+    margin: 0;
+    transition: 0.5s;
+    
+}
+
+.custom_card_clickable .custom_card_clickable-box:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.custom_card_clickable-box .icon-wrapper{
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    padding-top:38px ;
+    padding-bottom: 19px;
+}
+
+.custom_card_clickable-box .icon-wrapper img{
+    width: 62px;
+    height: 62px;
+}
+
+.custom_card_clickable-text{
+    text-align: center;
+}
+
+.custom_card_clickable-text h3{
+    font-size: 20px;
+    color: #64AEF9;
+    margin: 0;
+}

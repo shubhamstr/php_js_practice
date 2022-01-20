@@ -13,30 +13,28 @@
         <div class="custom_card_clickable">
             <div class="custom_card_clickable-box">
                 <div class="icon-wrapper">
-                    <img src="https://icon-library.com/images/archive-icon-png/archive-icon-png-8.jpg" alt="">
+                    <img src="./bank.png" alt="">
                 </div>
                 <div class="custom_card_clickable-text">
-                    <h3>Import stylesheet <br>
-                        and data file
+                    <h3>Bank <br>
                     </h3>
                 </div>
             </div>
             <div class="custom_card_clickable-box">
                 <div class="icon-wrapper">
-                    <img src="https://www.pngrepo.com/png/4046/512/archive.png" alt="">
+                    <img src="./paypal.png" alt="">
                 </div>
                 <div class="custom_card_clickable-text">
-                    <h3>Import <br>
-                        Background plate
+                    <h3>Paypal <br>
                     </h3>
                 </div>
             </div>
             <div class="custom_card_clickable-box">
                 <div class="icon-wrapper">
-                    <img src="http://cdn.onlinewebfonts.com/svg/img_390595.png" alt="">
+                    <img src="./credit-card.png" alt="">
                 </div>
                 <div class="custom_card_clickable-text">
-                    <h3>Import sprite<br>
+                    <h3>Credit Card<br>
                     </h3>
                 </div>
             </div>
